@@ -15,7 +15,7 @@ body {
   color: var(--text-color);
   font-family: 'Source Code Pro', monospace;
   max-width: 940px;
-  margin: auto;
+  margin-left: 5px;
 }
 
 .title--shadow {
@@ -132,4 +132,13 @@ textarea {
   margin-left: 5px;
   resize: none;
   min-width: 260px;
+}
+
+.btn-submit {
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  width: 100px;
+  position: relative;
+  left: 160px;
 }
