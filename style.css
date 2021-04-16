@@ -20,10 +20,25 @@ body {
     1px -1px 1px var(--base-black), -1px -1px 1px var(--base-black);
 }
 
+.main-section {
+  max-width: 1440px;
+}
+
+.box-photo {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.photo-dev {
+  border: 3px solid var(--second-color);
+  width: 150px;
+}
+
 .main_title {
   color: var(--thirty-color);
   font-family: 'Megrim', cursive;
   font-size: 3em;
+  text-align: center;
 }
 
 .title-section {
