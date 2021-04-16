@@ -1,6 +1,7 @@
 :root {
   --bg-color: #292929;
   --text-color: #b7b7b7;
+  --second-text-color: #838383;
   --thirty-color: #00ccbb;
   --fourt-color: #ee7700;
   --second-color: #7f9492;
@@ -38,7 +39,42 @@ body {
   color: var(--thirty-color);
   font-family: 'Megrim', cursive;
   font-size: 3em;
+  margin-bottom: 0;
+  margin-top: 30px;
   text-align: center;
+}
+
+.main_subtitle {
+  color: var(--second-text-color);
+  font-size: 1.3em;
+  font-weight: 400;
+
+  margin: 15px auto;
+  text-align: center;
+  width: 215px;
+}
+
+.btn {
+  background-color: var(--bg-btn-color);
+  border-radius: 3px;
+  box-shadow: 3px 3px 2px var(--base-black);
+  color: var(--base-black);
+
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 0px 0px var(--fourt-color), -1px 0px 0px var(--fourt-color),
+    0px 1px 0px var(--fourt-color), 0px -1px 0px var(--fourt-color);
+}
+
+.btn-crl {
+  display: block;
+  font-family: 'Megrim', cursive;
+  font-weight: 700;
+
+  margin: auto;
+  padding: 9px 10px;
+
+  width: 95px;
 }
 
 .title-section {
