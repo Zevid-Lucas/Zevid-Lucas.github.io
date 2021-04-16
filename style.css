@@ -72,10 +72,8 @@ body {
   display: block;
   font-family: 'Megrim', cursive;
   font-weight: 700;
-
   margin: auto;
   padding: 9px 10px;
-
   width: 95px;
 }
 
@@ -101,4 +99,8 @@ body {
 .color-gray {
   color: var(--second-color);
   font-weight: 700;
+}
+
+.form {
+  margin-top: 30px;
 }
