@@ -119,7 +119,7 @@ input {
   border: 0px solid;
   border-radius: 3px;
   height: 30px;
-  width: 260px;
+  width: 320px;
 }
 
 *:focus {
@@ -131,7 +131,7 @@ textarea {
   border-radius: 3px;
   margin-left: 5px;
   resize: none;
-  min-width: 260px;
+  width: 320px;
 }
 
 .btn-submit {
@@ -140,5 +140,5 @@ textarea {
   padding: 5px;
   width: 100px;
   position: relative;
-  left: 160px;
+  left: 220px;
 }
