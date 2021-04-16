@@ -15,7 +15,7 @@ body {
   color: var(--text-color);
   font-family: 'Source Code Pro', monospace;
   max-width: 940px;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 .title--shadow {
