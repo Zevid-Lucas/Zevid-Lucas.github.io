@@ -110,3 +110,26 @@ body {
   display: block;
   margin: 10px 0px 3px 5px;
 }
+
+input {
+  margin-left: 5px;
+}
+
+input {
+  border: 0px solid;
+  border-radius: 3px;
+  height: 30px;
+  width: 260px;
+}
+
+*:focus {
+  outline: 0;
+}
+
+textarea {
+  border: 0 solid;
+  border-radius: 3px;
+  margin-left: 5px;
+  resize: none;
+  min-width: 260px;
+}
