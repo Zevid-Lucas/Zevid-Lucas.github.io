@@ -104,3 +104,9 @@ body {
 .form {
   margin-top: 30px;
 }
+
+.label {
+  color: var(--second-text-color);
+  display: block;
+  margin: 10px 0px 3px 5px;
+}
