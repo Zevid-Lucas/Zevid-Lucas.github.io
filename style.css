@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #292929;
+  --bg-color: #272727;
   --text-color: #b7b7b7;
   --second-text-color: #838383;
   --thirty-color: #00ccbb;
@@ -15,7 +15,7 @@ body {
   color: var(--text-color);
   font-family: 'Source Code Pro', monospace;
   max-width: 940px;
-  margin-left: 5px;
+  margin: auto;
 }
 
 .title--shadow {
