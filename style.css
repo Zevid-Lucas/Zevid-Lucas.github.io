@@ -1,30 +1,42 @@
+:root {
+  --bg-color: #292929;
+  --text-color: #b7b7b7;
+  --thirty-color: #00ccbb;
+  --fourt-color: #ee7700;
+  --second-color: #7f9492;
+  --base-black: #000;
+  --bg-btn-color: #aa9944;
+  --separator-color: #83838355;
+}
+
 body {
-  background-color: #292929;
-  color: #b7b7b7;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-family: 'Source Code Pro', monospace;
 }
 
-.title {
-  color: #0cb;
+.title--shadow {
+  text-shadow: 1px 1px 1px var(--base-black), -1px 1px 1px var(--base-black),
+    1px -1px 1px var(--base-black), -1px -1px 1px var(--base-black);
+}
+
+.main_title {
+  color: var(--thirty-color);
   font-family: 'Megrim', cursive;
   font-size: 3em;
-  text-shadow: 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000,
-    -1px -1px 1px #000;
 }
 
 .title-section {
-  background-color: #7f9492;
-  color: #e70;
+  background-color: var(--second-color);
+  color: var(--fourt-color);
   font-family: 'Megrim', cursive;
-  text-shadow: 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000,
-    -1px -1px 1px #000;
 }
 
 .color-orange {
-  color: #e70;
+  color: var(--fourt-color);
 }
 
 .color-gray {
-  color: #7f9492;
+  color: var(--second-color);
   font-weight: 700;
 }
